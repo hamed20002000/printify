@@ -1,0 +1,35 @@
+
+div#main{
+    display:flex;
+    flex-direction:row;
+    width:100vw;
+    height:100vh
+}
+
+div#leftPanel{
+    display:flex;
+    flex-direction:column;
+    flex:2;
+}
+div#logo{
+    flex:1;
+    min-height:0;
+    background-color:rgb(235 235 235);
+}
+div#menu{
+    flex:10;
+    background-color:#ffffff
+}
+div#rightPanel{
+    display:flex;
+    flex-direction:column;
+    flex:10
+}
+
+div#header{
+    flex:1;
+}
+div#content{
+    flex:10;
+    background-color:#f0f0fa
+}
